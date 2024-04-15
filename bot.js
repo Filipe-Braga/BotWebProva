@@ -21,10 +21,10 @@ bot.on('message', (msg) => {
   var base = new Date(data * 1000);
   var horario = base.getHours();
 
-    while (conv =! 1){
+
         if(horario >= 9 && horario < 18){
             bot.sendMessage(chatId, "Você pode nos encontrar em https://uvv.br/");
-            conv == 1;      
+
         }
 
         else{
@@ -33,5 +33,4 @@ bot.on('message', (msg) => {
         }
     }
 
-   
-});
+   );
